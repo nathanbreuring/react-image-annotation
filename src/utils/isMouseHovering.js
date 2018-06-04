@@ -1,6 +1,6 @@
 import React, { PureComponent as Component } from 'react'
 
-export const isMouseOverElement = ({ elem, e }) => {
+const isMouseOverElement = ({ elem, e }) => {
   const { pageY, pageX } = e
   const { left, right, bottom, top } = elem.getBoundingClientRect()
 
